@@ -29,6 +29,10 @@ public class ReadDataFromeExcel {
 	
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	    driver.manage().window().maximize();
+	    driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+	    driver.manage().window().maximize();
+	    driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+	    driver.manage().window().maximize();
 	       
 	}
 	@Test(dataProvider="LoginData")
