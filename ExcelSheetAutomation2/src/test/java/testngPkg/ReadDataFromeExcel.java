@@ -102,6 +102,7 @@ public class ReadDataFromeExcel {
 	@AfterClass
 	void tearDown()
 	{
+		System.out.println("after class");
 		driver.close();
 	}
 }
