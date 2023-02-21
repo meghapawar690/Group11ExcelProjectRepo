@@ -21,13 +21,15 @@ public class ReadDataFromeExcel {
 	public void setup()
 	{
 		System.out.println("BeforeClassChrome");
+		System.out.println("BeforeClassChrome");
         System.setProperty("webdriver.chrome.driver",
 	             	"E:\\selenium\\chromedriver.exe");
 
         driver =new ChromeDriver();
         
 	
-	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	
+        driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 	    driver.manage().window().maximize();
 	       
 	}
