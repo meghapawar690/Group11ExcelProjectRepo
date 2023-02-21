@@ -26,7 +26,7 @@ public class ReadDataFromeExcel {
 
         driver =new ChromeDriver();
         
-	
+        System.out.println("vivek chnage");
 	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	    driver.manage().window().maximize();
 	       
@@ -102,4 +102,6 @@ public class ReadDataFromeExcel {
 	{
 		driver.close();
 	}
+	
+	
 }
